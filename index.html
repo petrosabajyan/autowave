@@ -23,6 +23,12 @@
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#parts">Parts</a></li>
             </ul>
+
+            <ul class="language">
+                <li onclick="onClickUS()"><img src="img/language/US.png" alt="US"></li>
+                <li onclick="onClickRU()"><img src="img/language/RU.png" alt="RU"></li>
+                <li onclick="onClickARM()"><img src="img/language/ARM.png" alt="ARM"></li>
+            </ul>
             <!-- Search Icon -->
             <i class="bx bx-search" id="search-icon"></i>
             <!-- Search box -->
@@ -34,77 +40,83 @@
     <!-- Home -->
     <section class="home" id="home">
         <div class="home-text">
-            <h1>We Have Everything <br>Your <span>Car </span>Need</h1>
+            <h1>
+                <span id="we_have_everything">We Have Everything</span>
+                <br>
+                <span id="your">Your</span>
+                <span class="text-car" id="car">Car</span>
+                <span id="need">Need</span>
+            </h1>
         </div>
     </section>
     <!-- Parts Section -->
     <section class="parts" id="parts">
         <div class="heading">
-            <span>What We Offer</span>
-            <h2>Our auto parts are always in excellent condition</h2>
+            <span id="what_we_offer">What We Offer</span>
+            <h2 id="our_auto_parts_always_excellent">Our auto parts are always in excellent condition</h2>
         </div>
         <!-- Parts Container -->
         <div class="parts-container container">
             <!-- Box 1 -->
             <div class="box">
                 <img src="img/parts/part1.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
                 <!-- <span>Price</span> -->
             </div>
             <!-- Box 2 -->
             <div class="box">
                 <img src="img/parts/part2.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 3 -->
             <div class="box">
                 <img src="img/parts/part3.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 4 -->
             <div class="box">
                 <img src="img/parts/part4.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 5 -->
             <div class="box">
                 <img src="img/parts/part5.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 6 -->
             <div class="box">
                 <img src="img/parts/part6.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 7 -->
             <div class="box">
                 <img src="img/parts/part7.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 8 -->
             <div class="box">
                 <img src="img/parts/part8.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 9 -->
             <div class="box">
                 <img src="img/parts/part9.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 10 -->
             <div class="box">
                 <img src="img/parts/part10.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 11 -->
             <div class="box">
                 <img src="img/parts/part11.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
             <!-- Box 12 -->
             <div class="box">
                 <img src="img/parts/part12.jpg" alt="part">
-                <h3>Auto Spare Part</h3>
+                <h3 class="auto_spare_part">Auto Spare Part</h3>
             </div>
         </div>
     </section>
@@ -123,16 +135,16 @@
                 </div> -->
             </div>
             <div class="footer-box">
-                <h3>Contact</h3>
-                <a href="tel:+37441988205">Phone: +374 41988205</a>
-                <a href="tel:+37494442437">Phone: +374 94442437</a>
-                <a href="mailto: info@autowave.am">Email: info@autowave.am</a>
+                <h3 id="contact">Contact</h3>
+                <a href="tel:+37441988205"><span class="phone">Phone</span>: +374 41988205</a>
+                <a href="tel:+37494442437"><span class="phone">Phone</span>: +374 94442437</a>
+                <a href="mailto: info@autowave.am"><span id="email">Email</span>: info@autowave.am</a>
             </div>
         </div>
     </section>
     <!-- Copyright -->
     <div class="copyright">
-        <p>&#169; Autowave All Right Reserved</p>
+        <p>&#169; Autowave <span id="all_right_reserved">All Right Reserved</span></p>
     </div>
     <!-- Link To JS -->
     <script src="main.js"></script>
